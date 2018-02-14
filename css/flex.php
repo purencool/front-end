@@ -1,9 +1,10 @@
+<?php include '../parts/domain.php'; ?>
 <!doctype html>
 <html class="no-js" lang="en">
     <head>
     <title>CSS flex</title>
     <?php include '../parts/head.php'; ?>
-        <link rel="stylesheet" href="../styles/css/flex.css">
+        <link rel="stylesheet" href="<?php echo $domain; ?>/styles/css/flex.css">
     </head>
     <body>
         <?php include '../parts/navigation.php'; ?>

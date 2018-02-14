@@ -1,9 +1,10 @@
+<?php include '../parts/domain.php'; ?>
 <!doctype html>
 <html class="no-js" lang="en">
     <head>
     <title>CSS grid</title>
     <?php include '../parts/head.php'; ?>
-        <link rel="stylesheet" href="../styles/css/grid.css">
+        <link rel="stylesheet" href="<?php echo $domain; ?>/styles/css/grid.css">
     </head>
     <body>
         <?php include '../parts/navigation.php'; ?>

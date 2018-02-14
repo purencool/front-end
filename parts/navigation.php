@@ -4,12 +4,12 @@
 <header>
   <nav>
      <ul>
-        <li><a href="../index.php" title="home">Home</a></li>
+        <li><a href="<?php echo $domain; ?>/index.php" title="home">Home</a></li>
         <li>
            <a href="#" title="CSS">CSS</a>
             <ul class="sub-nav" >
-              <li> <a href="../css/grid.php" title="CSS Grid">CSS Grid</a></li>
-              <li> <a href="../css/flex.php" title="CSS Flex">CSS Flex</a></li>
+              <li> <a href="<?php echo $domain; ?>/css/grid.php" title="CSS Grid">CSS Grid</a></li>
+              <li> <a href="<?php echo $domain; ?>/css/flex.php" title="CSS Flex">CSS Flex</a></li>
             </ul>
         </li>
      </ul>

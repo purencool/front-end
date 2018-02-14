@@ -1,9 +1,10 @@
+<?php include './parts/domain.php'; ?>
 <!doctype html>
 <html class="no-js" lang="en">
     <head>
     <title>Home</title>
     <?php include './parts/head.php'; ?>
-        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="<?php echo $domain; ?>/styles/main.css">
     </head>
     <body>
         <?php include './parts/navigation.php'; ?>
@@ -20,6 +21,6 @@
         </main>
         <?php include './parts/footer.php'; ?>
         <?php include './parts/js.php'; ?>
-        <script src="js/main.js"></script>
+        <script src="<?php echo $domain; ?>/js/main.js"></script>
     </body>
 </html>
