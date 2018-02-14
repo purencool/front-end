@@ -1,0 +1,52 @@
+#content {
+    background: #DAF7A6;
+}
+
+#description {
+    background: #FFC300;
+}
+
+.article {
+    background: #FF5733;
+}
+
+.aside {
+    background: #C70039
+}
+
+#three-cols {
+    background: #581845;
+}
+
+
+#four-cols {
+    background: #900C3F;
+}
+
+#five-cols {
+    background: #581845;
+}
+
+#three-cols,
+#four-cols,
+#five-cols {
+}
+
+@media only screen and (min-width: 500px) {
+    #content {
+    }
+    #description {
+    }
+    #three-cols {
+    }
+    #three-cols h4 {
+    }
+    #four-cols {
+    }
+    #four-cols h5 {
+    }
+    #five-cols {
+    }
+    #five-cols h6 {
+    }
+}

@@ -3,7 +3,7 @@
     <head>
     <title>Home</title>
     <?php include './parts/head.php'; ?>
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="./styles/main.css">
     </head>
     <body>
         <?php include './parts/navigation.php'; ?>

@@ -4,5 +4,5 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="manifest" href="site.webmanifest">
 <link rel="apple-touch-icon" href="icon.png">
-<link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="../styles/normalize.css">
+<link rel="stylesheet" href="../styles/global.css">

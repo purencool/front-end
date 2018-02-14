@@ -18,20 +18,23 @@ body>header nav ul li {
 body>header nav ul li a {
     text-transform: uppercase;
     color: black;
-    padding-left: 5px;
+    padding-left: 10px;
     text-decoration: none;
 }
 
 
-body>header nav ul li a:hover {
-    text-transform: uppercase;
-    color: black;
-    padding-left: 5px;
-    text-decoration: underline;
+body>header nav ul > li > ul {
+  text-indent: -9990px;
+  padding-top:5px;
 }
 
+
+body>header nav ul > li:hover  > ul {
+    text-indent: 0;
+  }
+
 body>main {
-    padding-top: 50px;
+    padding-top: 55px;
 }
 
 body>footer {

@@ -1,12 +1,12 @@
 <!doctype html>
 <html class="no-js" lang="en">
     <head>
-    <title>CSS grid</title>
-    <?php include './parts/head.php'; ?>
-        <link rel="stylesheet" href="css/grid.css">
+    <title>CSS flex</title>
+    <?php include '../parts/head.php'; ?>
+        <link rel="stylesheet" href="../styles/css/flex.css">
     </head>
     <body>
-        <?php include './parts/navigation.php'; ?>
+        <?php include '../parts/navigation.php'; ?>
         <main>
             <!-- Add css example here -->
             <div id="content">
@@ -17,10 +17,10 @@
 
                  <article class="article">
                    <header>
-                      <h1>Displaying a CSS Grid example</h1>
+                      <h1>Displaying a CSS Flex example</h1>
                    </header>
                    <p>
-                     Displaying a CSS Grid example paragraph in an article
+                     Displaying a CSS Flex example paragraph in an article
                    </p>
                    <h2>A random h2</h2>
                    <p>
@@ -61,7 +61,7 @@
              </section>
             <!-- End css examples -->
         </main>
-        <?php include './parts/footer.php'; ?>
-        <?php include './parts/js.php'; ?>
+        <?php include '../parts/footer.php'; ?>
+        <?php include '../parts/js.php'; ?>
     </body>
 </html>
