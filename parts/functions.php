@@ -12,9 +12,6 @@ $domain = domain();
 //echo $domain;
 
 function lightVersion(){
-
     return (isset($_GET['q']) == 'y') ? true : false ;
-
  }
  $lightVersion = lightVersion();
-

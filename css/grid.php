@@ -1,15 +1,8 @@
-<?php include '../parts/domain.php'; ?>
-<!doctype html>
-<html class="no-js" lang="en">
-    <head>
-    <title>CSS grid</title>
-    <?php include '../parts/head.php'; ?>
-        <link rel="stylesheet" href="<?php echo $domain; ?>/styles/css/grid.css">
-    </head>
-    <body>
-        <?php include '../parts/navigation.php'; ?>
-        <main>
-            <!-- Add css example here -->
+<?php include '../parts/functions.php'; ?>
+<?php $cssArr= [$domain.'/styles/css/grid.css']; ?>
+<?php $jsArr= []; ?>
+<?php include '../parts/html-header.php'; ?>
+    <!-- Add css example here -->
             <div id="content">
                <section id="description">
                   <h1>Html5  H1 section</h1>
@@ -60,9 +53,5 @@
                 <div>4</div>
                 <div>5</div>
              </section>
-            <!-- End css examples -->
-        </main>
-        <?php include '../parts/footer.php'; ?>
-        <?php include '../parts/js.php'; ?>
-    </body>
-</html>
+  <!-- End css examples -->
+<?php include '../parts/html-footer.php'; ?>

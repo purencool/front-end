@@ -1,14 +1,7 @@
-<?php include '../parts/domain.php'; ?>
-<!doctype html>
-<html class="no-js" lang="en">
-    <head>
-    <title>CSS flex</title>
-    <?php include '../parts/head.php'; ?>
-        <link rel="stylesheet" href="<?php echo $domain; ?>/styles/css/flex.css">
-    </head>
-    <body>
-        <?php include '../parts/navigation.php'; ?>
-        <main>
+<?php include '../parts/functions.php'; ?>
+<?php $cssArr= [$domain.'/styles/css/flex.css']; ?>
+<?php $jsArr= []; ?>
+<?php include '../parts/html-header.php'; ?>
             <!-- Add css example here -->
             <div id="content">
                <section id="description">
@@ -61,8 +54,4 @@
                 <div>5</div>
              </section>
             <!-- End css examples -->
-        </main>
-        <?php include '../parts/footer.php'; ?>
-        <?php include '../parts/js.php'; ?>
-    </body>
-</html>
+<?php include '../parts/html-footer.php'; ?>
