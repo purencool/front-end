@@ -1,13 +1,20 @@
 <?php
 function domain(){
    $arr= explode('/',  $_SERVER['REQUEST_URI']);
-   print_r($arr);
-   $arr1 = array_pop($arr);
-   if(end($arr1) == 'css'){
-       $arr1 = array_pop($arr1);
+   array_pop($arr);
+   if(end($arr) == 'css'){
+       array_pop($arr);
    }
-   $implode = implode('/', $arr1);
+   $implode = implode('/', $arr);
    return "http://".$_SERVER['HTTP_HOST'].$implode;
 }
 $domain = domain();
 //echo $domain;
+
+function lightVersion(){
+
+    return (isset($_GET['q']) == 'y') ? true : false ;
+
+ }
+ $lightVersion = lightVersion();
+
