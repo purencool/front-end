@@ -1,0 +1,46 @@
+body>header {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+body>header nav ul {
+    width: 100%;
+    padding-left:5px;
+}
+
+body>header nav ul li {
+    display: inline;
+}
+
+body>header nav ul li a {
+    text-transform: uppercase;
+    color: black;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+
+body>header nav ul li a:hover {
+    text-transform: uppercase;
+    color: black;
+    padding-left: 5px;
+    text-decoration: underline;
+}
+
+body>main {
+    padding-top: 50px;
+}
+
+body>footer {
+    clear: both;
+    padding-top: 10px;
+}
+
+body>footer span {
+    display: block;
+    clear: both;
+    margin: 0 auto;
+    width: 200px;
+}
