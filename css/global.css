@@ -3,6 +3,7 @@ body>header {
     top: 0%;
     width: 100%;
     border-bottom: 1px solid #ccc;
+    background: white;
 }
 
 body>header nav ul {
