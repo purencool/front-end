@@ -1,6 +1,7 @@
 <?php
 function domain(){
    $arr= explode('/',  $_SERVER['REQUEST_URI']);
+   print_r($arr);
    $arr1 = array_pop($arr);
    if(end($arr1) == 'css'){
        $arr1 = array_pop($arr1);
