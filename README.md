@@ -9,3 +9,6 @@ to process compile PHP
 1. Clone repository 
 2. Navigate to repository
 3. Run the following command `php -S localhost:8000 -t public_html/`
+
+### See a working copy
+http://purencool.com/fe/
