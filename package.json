@@ -1,0 +1,11 @@
+{
+  "name": "purencool-frontend",
+  "version": "1.0.0",
+  "description": "Group of frontend examples of JS HTML5 CSS and relevant frameworks",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "author": "Purencool",
+  "license": "BSD2"
+}

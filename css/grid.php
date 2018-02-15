@@ -1,6 +1,5 @@
 <?php include '../parts/functions.php'; ?>
-<?php $cssArr= [$domain.'/styles/css/grid.css']; ?>
-<?php $jsArr= []; ?>
+<?php $cssArr= [$domain.'/styles/css/grid.css'];  $jsArr= []; ?>
 <?php include '../parts/html-header.php'; ?>
     <!-- Add css example here -->
             <div id="content">
