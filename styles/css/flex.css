@@ -1,29 +1,45 @@
 #content {
+    display:flex;
+    flex-wrap: wrap;
     background: #DAF7A6;
 }
 
 #description {
+    display: inline-block;
+    width:100%;
     background: #FFC300;
+    order:3;
 }
 
+
 .article {
+    order:2;
+    flex:4;
     background: #FF5733;
 }
 
 .aside {
+    order:1;
+    flex:1;
     background: #C70039
 }
 
 #three-cols {
+    display:flex;
+    flex-wrap: wrap;
     background: #581845;
 }
 
 
 #four-cols {
+    display:flex;
+    flex-wrap: wrap;
     background: #900C3F;
 }
 
 #five-cols {
+    display:flex;
+    flex-wrap: wrap;
     background: #581845;
 }
 
