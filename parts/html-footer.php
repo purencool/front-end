@@ -4,9 +4,9 @@
 <?php include  APP_PATH. DIRECTORY_SEPARATOR .'js.php'; ?>
 <?php
   if (!empty($jsArr)) {
-   foreach ($jsArr as $jsArrValue) {
-      echo '<link rel="stylesheet" href="'.$jsArrValue.'">';
-    }
+      foreach ($jsArr as $jsArrValue) {
+          echo '<script src="'.$jsArrValue.'"></script>';
+      }
   }
 ?>
    </body>

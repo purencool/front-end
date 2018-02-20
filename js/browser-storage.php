@@ -1,6 +1,6 @@
 <?php include '../parts/functions.php'; ?>
 <?php $title=' Browser storage examples'; ?>
-<?php $cssArr= [$domain.'/styles/js/browser-storage.css'];  $jsArr= []; ?>
+<?php $cssArr= [$domain.'/styles/js/browser-storage.css'];  $jsArr= [$domain.'/javascript/browser-storage/browser-storage-1.js']; ?>
 <?php include '../parts/html-header.php'; ?>
     <!-- Add example here -->
     <div id="content">
