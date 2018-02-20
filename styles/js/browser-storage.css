@@ -1,0 +1,26 @@
+#content {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.article {
+    order:1;
+    flex:4;
+}
+.aside {
+    order:2;
+    flex:1;
+}
+
+#grid{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#grid > div{
+    flex:2;
+}
+
+@media only screen and (min-width: 500px) {
+
+}

@@ -1,4 +1,5 @@
 <?php include './parts/functions.php'; ?>
+<?php $title='Home'; ?>
 <?php $cssArr= [$domain.'/styles/main.css']; ?>
 <?php $jsArr= [$domain.'/js/main.js']; ?>
 <?php include './parts/html-header.php'; ?>

@@ -1,4 +1,5 @@
 <?php include '../parts/functions.php'; ?>
+<?php $title='Grid examples'; ?>
 <?php $cssArr= [$domain.'/styles/css/grid.css'];  $jsArr= []; ?>
 <?php include '../parts/html-header.php'; ?>
     <!-- Add css example here -->

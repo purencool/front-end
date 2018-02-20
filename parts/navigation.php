@@ -11,6 +11,13 @@
             <ul class="sub-nav" >
               <li> <a href="<?php echo $domain; ?>/css/grid.php" title="CSS Grid">CSS Grid</a></li>
               <li> <a href="<?php echo $domain; ?>/css/flex.php" title="CSS Flex">CSS Flex</a></li>
+              <li> <a href="<?php echo $domain; ?>/css/animation.php" title="CSS Flex">CSS Animations</a></li>
+            </ul>
+        </li>
+        <li>
+           <a href="#" title="JS">JS</a>
+            <ul class="sub-nav" >
+              <li> <a href="<?php echo $domain; ?>/js/browser-storage.php" title="Browser storage">Browser storage</a></li>
             </ul>
         </li>
      </ul>

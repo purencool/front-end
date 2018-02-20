@@ -1,4 +1,5 @@
 <?php include '../parts/functions.php'; ?>
+<?php $title='Flex examples'; ?>
 <?php $cssArr= [$domain.'/styles/css/flex.css']; ?>
 <?php $jsArr= []; ?>
 <?php include '../parts/html-header.php'; ?>

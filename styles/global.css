@@ -6,10 +6,13 @@ body>header {
     background: white;
 }
 
-body>header nav ul {
+body>header nav  ul {
+    position: relative;
     width: 100%;
-    padding-left:5px;
-}
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+  }
 
 body>header nav ul li {
     display: inline;
@@ -22,15 +25,17 @@ body>header nav ul li a {
     text-decoration: none;
 }
 
-
 body>header nav ul > li > ul {
   text-indent: -9990px;
   padding-top:5px;
+  position: absolute;
+
 }
 
 
 body>header nav ul > li:hover  > ul {
     text-indent: 0;
+    z-index: 100000;
   }
 
 body>main {

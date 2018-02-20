@@ -2,7 +2,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
-    <title>Home</title>
+    <title><?php echo $title;?></title>
     <?php include APP_PATH. DIRECTORY_SEPARATOR .'head.php'; ?>
     <?php
        if (!empty($cssArr)) {
