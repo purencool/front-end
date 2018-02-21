@@ -1,6 +1,12 @@
 <?php include '../parts/functions.php'; ?>
 <?php $title=' Browser storage examples'; ?>
-<?php $cssArr= [$domain.'/styles/js/browser-storage.css'];  $jsArr= [$domain.'/javascript/browser-storage/browser-storage-1.js']; ?>
+<?php $cssArr= [$domain.'/styles/js/browser-storage.css'];  ?>
+<?php
+  $jsArr= [
+     // $domain.'/javascript/browser-storage/dataStorage.js',
+      $domain.'/javascript/browser-storage/browser-storage-1.js'
+  ];
+ ?>
 <?php include '../parts/html-header.php'; ?>
     <!-- Add example here -->
     <div id="content">
@@ -21,7 +27,16 @@
               </div>
               <section id="grid">
                 <div class="container">
-                    <div id="container-1">1</div>
+                    <div id="container-1">
+                       <p> This example is straight JavaScript</p>
+                       <ul id="container-1-ul">
+
+                       </ul>
+                        <form id="container-1-form">
+                            <input type='text' name="container-1-input" id="container-1-input" />
+                            <input type='submit' name="container-1-submit" id="container-1-submit" />
+                        </form>
+                    </div>
                 </div>
                 <div class="container">
                     <div id="container-2">2</div>
