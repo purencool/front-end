@@ -12,6 +12,7 @@
               <li> <a href="<?php echo $domain; ?>/css/grid.php" title="CSS Grid">CSS Grid</a></li>
               <li> <a href="<?php echo $domain; ?>/css/flex.php" title="CSS Flex">CSS Flex</a></li>
               <li> <a href="<?php echo $domain; ?>/css/animation.php" title="CSS Flex">CSS Animations</a></li>
+              <li> <a href="<?php echo $domain; ?>/css/css-variables.php" title="CSS Variables">CSS Variables</a></li>
             </ul>
         </li>
         <li>

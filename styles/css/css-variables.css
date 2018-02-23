@@ -1,0 +1,53 @@
+:root {
+    --bg-color-1: #DAF7A6;
+    --bg-color-2: #FFC300;
+    --bg-color-3: #FF5733;
+    --bg-color-4: #C70039;
+    --font-h1: 2.5em;
+    --font-h2: 1.1em;
+    --font-h3: .9em;
+}
+
+h1 {
+    font-size: var(--font-h1);
+}
+
+h2 {
+    font-size: var(--font-h2);
+}
+
+h3 {
+    font-size: var(--font-h3);
+}
+
+#content {
+    background: var(--bg-color-1);
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#description {
+    background: var(--bg-color-2);
+    ;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.article {
+    background: var(--bg-color-3);
+    grid-column-start: 1;
+}
+
+.aside {
+    background: var(--bg-color-4);
+}
+
+@media only screen and (min-width: 500px) {
+    #content {
+        grid-template-columns: 1fr 30%;
+    }
+    #description {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
